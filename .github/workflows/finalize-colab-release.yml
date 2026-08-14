@@ -1,0 +1,27 @@
+name: Finalize approved Colab release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/release-manifest.json'
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  immutable-tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the protected main commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate exact release bytes and create immutable tag
+        run: >-
+          python .github/scripts/finalize_colab_release.py
+          --base "${{ github.event.before }}"
+          --commit "${{ github.sha }}"
+          --repository "${{ github.repository }}"
