@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "student-data-release-v1",
+  "resolverSchemaVersion": 2,
+  "repository": "laliberj/student-lab",
+  "subjectId": "data-science-grade-10",
+  "unitId": "ds10-r40-foundations",
+  "classId": "ds10-r40-m01",
+  "artifactId": "ds10-r40-launch-notebook",
+  "releaseVersion": "2026.09.1",
+  "immutableRef": "ds10-r40-m01-v2026.09.1",
+  "publicRoot": "data-science-grade-10/unit-00/class-01",
+  "sourceNote": "Frozen MTA station-month observations for the Data Science II launch.",
+  "notebook": {
+    "public": false,
+    "deliveryChannel": "private-classroom-drive",
+    "sha256": "b7a193ec68472527e93b884e4b690879c535e3b1bde7b16da22d3a5323d016a0",
+    "bytes": 25105,
+    "minimumResolverSchemaVersion": 2
+  },
+  "resources": [
+    {
+      "resourceId": "ds10-r40-foundations-mta-rows",
+      "path": "data-science-grade-10/unit-00/class-01/resources/mta-course-foundations-launch-2018-2021.csv.aesgcm",
+      "sha256": "fce1ed268425a65d4673f39b196ed806e488e21610f63d7f694cdc93d9e7fc23",
+      "bytes": 6263,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "month",
+        "station_complex_id",
+        "station_complex",
+        "borough",
+        "ridership"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "mta-course-foundations-launch-2018-2021.csv",
+        "plaintextSha256": "ad8886ee0fcbcc8cbde604890ab38d0a445b5bd9266f09b63fab181f77400cb7",
+        "plaintextBytes": 6227
+      }
+    },
+    {
+      "resourceId": "ds10-r40-foundations-mta-manifest",
+      "path": "data-science-grade-10/unit-00/class-01/resources/mta-course-foundations-launch-manifest.json.aesgcm",
+      "sha256": "c6f45e31c2dfb87c273d2dd6a71f0102ad8a6d711716775a998b5f93017a12bc",
+      "bytes": 2944,
+      "availability": "class-start",
+      "role": "required",
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "mta-course-foundations-launch-manifest.json",
+        "plaintextSha256": "e28d66d3fc883d0b8facb7a4ac264fe18a3a80eb748eefc7044fc8e7a2f18ce4",
+        "plaintextBytes": 2908
+      }
+    }
+  ],
+  "heldResourceExclusions": [],
+  "launch": {
+    "notebookPublic": false,
+    "deliveryChannel": "private-classroom-drive"
+  }
+}

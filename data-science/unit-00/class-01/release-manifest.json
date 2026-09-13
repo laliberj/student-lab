@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "student-data-release-v1",
+  "resolverSchemaVersion": 2,
+  "repository": "laliberj/student-lab",
+  "subjectId": "data-science",
+  "unitId": "ds-unit-00",
+  "classId": "ds-u00-c01",
+  "artifactId": "ds-u00-c01-launch-notebook",
+  "releaseVersion": "2026.09.1",
+  "immutableRef": "ds-u00-c01-v2026.09.1",
+  "publicRoot": "data-science/unit-00/class-01",
+  "sourceNote": "NOAA Central Park daily weather observations for the course launch.",
+  "notebook": {
+    "public": false,
+    "deliveryChannel": "private-classroom-drive",
+    "sha256": "db01f2530389760d383d40f56f8bf6ea1179fae6f2b70150c297b72ea44edff8",
+    "bytes": 24922,
+    "minimumResolverSchemaVersion": 2
+  },
+  "resources": [
+    {
+      "resourceId": "ds-u00-weather-rows",
+      "path": "data-science/unit-00/class-01/resources/central-park-weather.csv.aesgcm",
+      "sha256": "5d54da9236ffee77880a8ad5cc7cbc5d5e208f14a4dd8d987952276faddd42d5",
+      "bytes": 399,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "date",
+        "max_c",
+        "min_c",
+        "precip_mm"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "central-park-weather.csv",
+        "plaintextSha256": "35b6e9f0b1240f06f6dad91ead7c6f16c28b6127dbbf9928d7bbd513b21b5f45",
+        "plaintextBytes": 363
+      }
+    }
+  ],
+  "heldResourceExclusions": [],
+  "launch": {
+    "notebookPublic": false,
+    "deliveryChannel": "private-classroom-drive"
+  }
+}
