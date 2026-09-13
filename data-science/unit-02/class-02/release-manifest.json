@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "student-data-release-v1",
+  "resolverSchemaVersion": 2,
+  "repository": "laliberj/student-lab",
+  "subjectId": "data-science",
+  "unitId": "ds-unit-02",
+  "classId": "ds-u02-c02",
+  "artifactId": "ds-u02-records-notebook",
+  "releaseVersion": "2026.09.1",
+  "immutableRef": "ds-u02-c02-v2026.09.1",
+  "publicRoot": "data-science/unit-02/class-02",
+  "sourceNote": "Frozen USDA FoodData Central supplier label records for Unit 2.",
+  "notebook": {
+    "public": false,
+    "deliveryChannel": "private-classroom-drive",
+    "sha256": "1e1728797f17afb82a149cc7054d18b82e8bb2a65d71754e3ac9f6a867ff484e",
+    "bytes": 39466,
+    "minimumResolverSchemaVersion": 2
+  },
+  "resources": [
+    {
+      "resourceId": "ds-u02-source-food-nutrient",
+      "path": "data-science/unit-02/class-02/resources/food-nutrient.csv.aesgcm",
+      "sha256": "9c39b60de1c1866909eb445e88789c530059da49bcc20df31067f6e0bcd43823",
+      "bytes": 1139543,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "id",
+        "fdc_id",
+        "nutrient_id",
+        "amount"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "food-nutrient.csv",
+        "plaintextSha256": "5558095c32d054e21878441e7694a2db9300153109d18b429cd155da04135843",
+        "plaintextBytes": 1139507
+      }
+    },
+    {
+      "resourceId": "ds-u02-source-food-record-receipts",
+      "path": "data-science/unit-02/class-02/resources/food-record-receipts.csv.aesgcm",
+      "sha256": "f91d077c8f6ba7a08cab3b83a6d5b5870ef391e5510275caedde16b2f10a054c",
+      "bytes": 2305955,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "source_release",
+        "food_source_row",
+        "branded_source_row",
+        "fdc_id",
+        "gtin_upc",
+        "publication_date",
+        "branded_food_category"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "food-record-receipts.csv",
+        "plaintextSha256": "cc09538297ef92521309b38addbfd1004c24e4e7f9bc1c8062638dfbaba6d20b",
+        "plaintextBytes": 2305919
+      }
+    },
+    {
+      "resourceId": "ds-u02-source-nutrient",
+      "path": "data-science/unit-02/class-02/resources/nutrient.csv.aesgcm",
+      "sha256": "97d16698f862c38790570216213b722f8f8847d99828d37c4ea027cfff6e2033",
+      "bytes": 131,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "id",
+        "name",
+        "unit_name"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "nutrient.csv",
+        "plaintextSha256": "ddceed29f403c07f27577efc7034030d2c75b5335dc2f18b0e8c60558612bdd1",
+        "plaintextBytes": 95
+      }
+    }
+  ],
+  "heldResourceExclusions": [
+    {
+      "resourceId": "ds-u02-private-reports",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    }
+  ],
+  "launch": {
+    "notebookPublic": false,
+    "deliveryChannel": "private-classroom-drive"
+  }
+}

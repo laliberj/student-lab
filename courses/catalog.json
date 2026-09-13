@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-13T22:59:38.170429+00:00",
+  "items": [
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-r40-foundations",
+      "kind": "release-manifest",
+      "path": "data-science-grade-10/unit-00/class-01/release-manifest.json",
+      "sha256": "74320bd7721fafbabd388e0bd7ccfe9dea04fd01c750fe5dc16fa9f098490161",
+      "bytes": 2367,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-r40-m01-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-r40-foundations",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-00/class-01/resources/mta-course-foundations-launch-2018-2021.csv.aesgcm",
+      "sha256": "fce1ed268425a65d4673f39b196ed806e488e21610f63d7f694cdc93d9e7fc23",
+      "bytes": 6263,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-r40-m01-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-r40-foundations",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-00/class-01/resources/mta-course-foundations-launch-manifest.json.aesgcm",
+      "sha256": "c6f45e31c2dfb87c273d2dd6a71f0102ad8a6d711716775a998b5f93017a12bc",
+      "bytes": 2944,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-r40-m01-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-mta-ridership",
+      "kind": "release-manifest",
+      "path": "data-science-grade-10/unit-01/class-01/release-manifest.json",
+      "sha256": "103c4d5a03bbd7a9b53ee073a2f3e490b61d8c8eda79cbbaa7b3252ff88da04c",
+      "bytes": 2376,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-m03-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-mta-ridership",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-01/class-01/resources/mta-monthly-ridership-2018-2024.csv.aesgcm",
+      "sha256": "3b896f51758672cc6221d9aab326716967d20a7f92f3699aef6d76435bf7160a",
+      "bytes": 2282041,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-m03-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-mta-ridership",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-01/class-01/resources/mta-monthly-ridership-student-manifest.json.aesgcm",
+      "sha256": "6dfb6717eb71489eddf662db719275388d765196a43c93957e696b2f9e28f364",
+      "bytes": 1379,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds10-m03-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-00",
+      "kind": "release-manifest",
+      "path": "data-science/unit-00/class-01/release-manifest.json",
+      "sha256": "49aa5d19030f437620d8ad11bda9ff661890b47eb54559e880f74c8700f2fa10",
+      "bytes": 1559,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u00-c01-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-00",
+      "kind": "data",
+      "path": "data-science/unit-00/class-01/resources/central-park-weather.csv.aesgcm",
+      "sha256": "5d54da9236ffee77880a8ad5cc7cbc5d5e208f14a4dd8d987952276faddd42d5",
+      "bytes": 399,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u00-c01-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-02",
+      "kind": "release-manifest",
+      "path": "data-science/unit-02/class-02/release-manifest.json",
+      "sha256": "e55591e667e7cc6a5eba1e91aaa099132be7e659f5c962f939a82d36456aa6d9",
+      "bytes": 3313,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u02-c02-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-02",
+      "kind": "data",
+      "path": "data-science/unit-02/class-02/resources/food-nutrient.csv.aesgcm",
+      "sha256": "9c39b60de1c1866909eb445e88789c530059da49bcc20df31067f6e0bcd43823",
+      "bytes": 1139543,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u02-c02-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-02",
+      "kind": "data",
+      "path": "data-science/unit-02/class-02/resources/food-record-receipts.csv.aesgcm",
+      "sha256": "f91d077c8f6ba7a08cab3b83a6d5b5870ef391e5510275caedde16b2f10a054c",
+      "bytes": 2305955,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u02-c02-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science",
+      "unitId": "ds-unit-02",
+      "kind": "data",
+      "path": "data-science/unit-02/class-02/resources/nutrient.csv.aesgcm",
+      "sha256": "97d16698f862c38790570216213b722f8f8847d99828d37c4ea027cfff6e2033",
+      "bytes": 131,
+      "publishedAt": "2026-09-13T22:59:38.170429+00:00",
+      "releaseTag": "ds-u02-c02-v2026.09.1"
+    }
+  ]
+}

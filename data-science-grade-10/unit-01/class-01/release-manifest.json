@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "student-data-release-v1",
+  "resolverSchemaVersion": 2,
+  "repository": "laliberj/student-lab",
+  "subjectId": "data-science-grade-10",
+  "unitId": "ds10-mta-ridership",
+  "classId": "ds10-m03",
+  "artifactId": "ds10-m03-m06-station-recovery-notebook",
+  "releaseVersion": "2026.09.1",
+  "immutableRef": "ds10-m03-v2026.09.1",
+  "publicRoot": "data-science-grade-10/unit-01/class-01",
+  "sourceNote": "Frozen MTA monthly station ridership observations for the recovery investigation.",
+  "notebook": {
+    "public": false,
+    "deliveryChannel": "private-classroom-drive",
+    "sha256": "21e8153a48ae386f952614558a41f30b5f972aae079c684744597ccc2de15c01",
+    "bytes": 48454,
+    "minimumResolverSchemaVersion": 2
+  },
+  "resources": [
+    {
+      "resourceId": "ds10-mta-monthly-candidate-csv",
+      "path": "data-science-grade-10/unit-01/class-01/resources/mta-monthly-ridership-2018-2024.csv.aesgcm",
+      "sha256": "3b896f51758672cc6221d9aab326716967d20a7f92f3699aef6d76435bf7160a",
+      "bytes": 2282041,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "month",
+        "station_complex_id",
+        "station_complex",
+        "borough",
+        "ridership"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "mta-monthly-ridership-2018-2024.csv",
+        "plaintextSha256": "792c4974c4f081606823f0836de71de47e0585fb104615933bc9c059e8490b9d",
+        "plaintextBytes": 2282005
+      }
+    },
+    {
+      "resourceId": "ds10-mta-monthly-candidate-manifest",
+      "path": "data-science-grade-10/unit-01/class-01/resources/mta-monthly-ridership-student-manifest.json.aesgcm",
+      "sha256": "6dfb6717eb71489eddf662db719275388d765196a43c93957e696b2f9e28f364",
+      "bytes": 1379,
+      "availability": "class-start",
+      "role": "required",
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "mta-monthly-ridership-student-manifest.json",
+        "plaintextSha256": "204376801f64cea440cb7a240c651bc9f3bc96e7a5b115e386136789be46d96f",
+        "plaintextBytes": 1343
+      }
+    }
+  ],
+  "heldResourceExclusions": [],
+  "launch": {
+    "notebookPublic": false,
+    "deliveryChannel": "private-classroom-drive"
+  }
+}
