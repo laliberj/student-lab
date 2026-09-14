@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - '**/release-manifest.json'
+      - '.github/scripts/finalize_colab_release.py'
+      - '.github/workflows/finalize-colab-release.yml'
 
 permissions:
   contents: write
