@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "student-data-release-v1",
+  "resolverSchemaVersion": 2,
+  "repository": "laliberj/student-lab",
+  "subjectId": "data-science-grade-10",
+  "unitId": "ds10-unit-05-stream-temperature",
+  "classId": "ds10-m27",
+  "artifactId": "ds10-m27-m32-stream-temperature-notebook",
+  "releaseVersion": "2026.09.1",
+  "immutableRef": "ds10-m27-v2026.09.1",
+  "publicRoot": "data-science-grade-10/unit-06/class-01",
+  "sourceNote": "Checksum-bound USGS daily mean water-temperature records with source credit, units, filters, and public-domain scope preserved.",
+  "notebook": {
+    "public": false,
+    "deliveryChannel": "private-classroom-drive",
+    "sha256": "0916182837613e19284dc0927dabc7fb89645a01c02c2866c12da170ec4b3bf0",
+    "bytes": 26352,
+    "minimumResolverSchemaVersion": 2
+  },
+  "resources": [
+    {
+      "resourceId": "ds10-u06-u05-gauge-lookup",
+      "path": "data-science-grade-10/unit-06/class-01/resources/u05_gauge_lookup.csv.aesgcm",
+      "sha256": "056697a8ad07dae0b0dbc748600449852a488e12c1ff4559515966b55f50e334",
+      "bytes": 6964,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "gauge_id",
+        "gauge_name",
+        "state_name",
+        "county_name",
+        "site_type",
+        "time_series_id",
+        "source_last_modified"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "u05_gauge_lookup.csv",
+        "plaintextSha256": "7935d30b05b673144be156a6034a26c76ffef77d51ac4de7697fb0c19ffa19f5",
+        "plaintextBytes": 6928
+      }
+    },
+    {
+      "resourceId": "ds10-u06-u05-development-long",
+      "path": "data-science-grade-10/unit-06/class-01/resources/u05_development_long.csv.aesgcm",
+      "sha256": "1e0db299421c61cadf5a2fc1d077538a011896b7d5d16a90b522d1d091bfbf3d",
+      "bytes": 937056,
+      "availability": "class-start",
+      "role": "required",
+      "allowedColumns": [
+        "gauge_id",
+        "date",
+        "water_temperature_c",
+        "parameter_code",
+        "statistic_id",
+        "unit_of_measure",
+        "approval_status",
+        "qualifier"
+      ],
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "u05_development_long.csv",
+        "plaintextSha256": "95ff1c04b0bb0dc775b2a4b2e40a5ea23445d3dfa6f58dab742d60a77d812e85",
+        "plaintextBytes": 937020
+      }
+    },
+    {
+      "resourceId": "ds10-u06-source-and-rights",
+      "path": "data-science-grade-10/unit-06/class-01/resources/SOURCE_AND_RIGHTS.txt.aesgcm",
+      "sha256": "89b04d586d693031d1c5d091a0140b3812631dd7b8cc9d98c6b53ea6104d79ae",
+      "bytes": 661,
+      "availability": "class-start",
+      "role": "required",
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "SOURCE_AND_RIGHTS.txt",
+        "plaintextSha256": "d71bbf3efd24cc3647716b6dc922ab729c69e8eaa9f1d2876890537ad44c144e",
+        "plaintextBytes": 625
+      }
+    },
+    {
+      "resourceId": "ds10-u06-usgs-stream-temperature-source-contract",
+      "path": "data-science-grade-10/unit-06/class-01/resources/usgs-stream-temperature-source-contract.json.aesgcm",
+      "sha256": "ea08b6c77782d227c70680aa7eeb216642ee460b3bfc7da7ee439b3e5cd802cc",
+      "bytes": 9047,
+      "availability": "class-start",
+      "role": "required",
+      "encryption": {
+        "algorithm": "AES-256-GCM",
+        "envelope": "curriculum-studio-aesgcm-v1",
+        "plaintextFilename": "usgs-stream-temperature-source-contract.json",
+        "plaintextSha256": "edca0d160f25d8494a13d91332fae9f752fbd2e333f4f9b9d3e0fd89a9562b27",
+        "plaintextBytes": 9011
+      }
+    }
+  ],
+  "heldResourceExclusions": [
+    {
+      "resourceId": "ds10-u06-u05-validation-queries",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-validation-visible-values",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-validation-targets",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-held-queries",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-held-visible-values",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-case-assignments",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-u05-held-targets",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    },
+    {
+      "resourceId": "ds10-u06-dsii-u06-stream-runtime",
+      "public": false,
+      "publicCiphertext": false,
+      "availability": "private-checkpoint-or-teacher-only",
+      "deliveryChannel": "teacher-or-cohort-controlled"
+    }
+  ],
+  "launch": {
+    "notebookPublic": false,
+    "deliveryChannel": "private-classroom-drive"
+  }
+}

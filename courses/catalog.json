@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T22:59:38.170429+00:00",
+  "updatedAt": "2026-10-02T14:02:10.098305+00:00",
   "items": [
     {
       "subjectId": "data-science-grade-10",
@@ -61,6 +61,56 @@
       "bytes": 1379,
       "publishedAt": "2026-09-13T22:59:38.170429+00:00",
       "releaseTag": "ds10-m03-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-unit-05-stream-temperature",
+      "kind": "release-manifest",
+      "path": "data-science-grade-10/unit-06/class-01/release-manifest.json",
+      "sha256": "382d3a5211002d235cf8bdf0fd9d78e96658662ccd5e36c5db838af2cc1de097",
+      "bytes": 5863,
+      "publishedAt": "2026-10-02T14:02:10.098305+00:00",
+      "releaseTag": "ds10-m27-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-unit-05-stream-temperature",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-06/class-01/resources/SOURCE_AND_RIGHTS.txt.aesgcm",
+      "sha256": "89b04d586d693031d1c5d091a0140b3812631dd7b8cc9d98c6b53ea6104d79ae",
+      "bytes": 661,
+      "publishedAt": "2026-10-02T14:02:10.098305+00:00",
+      "releaseTag": "ds10-m27-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-unit-05-stream-temperature",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-06/class-01/resources/u05_development_long.csv.aesgcm",
+      "sha256": "1e0db299421c61cadf5a2fc1d077538a011896b7d5d16a90b522d1d091bfbf3d",
+      "bytes": 937056,
+      "publishedAt": "2026-10-02T14:02:10.098305+00:00",
+      "releaseTag": "ds10-m27-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-unit-05-stream-temperature",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-06/class-01/resources/u05_gauge_lookup.csv.aesgcm",
+      "sha256": "056697a8ad07dae0b0dbc748600449852a488e12c1ff4559515966b55f50e334",
+      "bytes": 6964,
+      "publishedAt": "2026-10-02T14:02:10.098305+00:00",
+      "releaseTag": "ds10-m27-v2026.09.1"
+    },
+    {
+      "subjectId": "data-science-grade-10",
+      "unitId": "ds10-unit-05-stream-temperature",
+      "kind": "data",
+      "path": "data-science-grade-10/unit-06/class-01/resources/usgs-stream-temperature-source-contract.json.aesgcm",
+      "sha256": "ea08b6c77782d227c70680aa7eeb216642ee460b3bfc7da7ee439b3e5cd802cc",
+      "bytes": 9047,
+      "publishedAt": "2026-10-02T14:02:10.098305+00:00",
+      "releaseTag": "ds10-m27-v2026.09.1"
     },
     {
       "subjectId": "data-science",
